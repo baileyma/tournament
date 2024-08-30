@@ -1,0 +1,287 @@
+
+/* Body and container styling */
+
+body {
+    display: grid;
+    grid-template-rows: .5fr, .5fr, 1fr;
+    grid-template-columns: 2fr 2fr;
+    background-color: #fff7ef;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100% 100%;
+    grid-template-rows: 100px 500px 1000px 500px 500px;
+    background-color: #fff7ef;
+}
+
+
+
+/* Styling for the title section and the five other sections */
+
+.title-0 {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+.summary-writeup-1 {
+    grid-column: 1;
+    grid-row: 2;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff7ef;
+
+    /
+    
+    width: 100%;
+
+    
+        /* Typography */
+        font-family: 'Helvetica Neue', sans-serif;
+        font-size: 16pt;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        color: black;
+        
+        /* Borders and Background */
+        border: 3px solid #fff7ef;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #f0f8ff,#fff7ef);
+        
+        /* Shadows */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+        
+        /* Hover Effects */
+        transition: all 0.3s ease-in-out;
+
+
+}
+
+.summary-writeup-2 {
+    grid-column: 2;
+    grid-row: 2;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff7ef;
+
+    /
+    
+    width: 100%;
+
+    
+        /* Typography */
+        font-family: 'Helvetica Neue', sans-serif;
+        font-size: 16pt;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        color: black;
+        
+        /* Borders and Background */
+        border: 3px solid #fff7ef;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #f0f8ff, #fff7ef);
+        
+        /* Shadows */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+        
+        /* Hover Effects */
+        transition: all 0.3s ease-in-out;
+
+
+}
+
+.summary-writeup-1:hover {
+    transform: scale(1.02);
+}
+
+.draw-placings-2 {
+    grid-column: 2;
+    grid-row: 4;
+    justify-content: center;
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15pt;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fff7ef;
+
+        /* Typography */
+        font-family: 'Helvetica Neue', sans-serif;
+        font-size: 16pt;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        color: black;
+        
+        /* Borders and Background */
+        border: 3px solid #fff7ef;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #f0f8ff, #fff7ef);
+        
+        /* Shadows */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        
+        /* Hover Effects */
+        transition: all 0.3s ease-in-out;
+}
+
+.anod {
+        grid-column: 2;
+        grid-row: 4;
+        justify-content: center;
+        border: 5px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 15pt;
+        flex-direction: column;
+        text-align: center;
+        background-color: #fff7ef;
+    
+            /* Typography */
+            font-family: 'Helvetica Neue', sans-serif;
+            font-size: 16pt;
+            line-height: 1.5;
+            letter-spacing: 1px;
+            color: black;
+            
+            /* Borders and Background */
+            border: 3px solid #fff7ef;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #f0f8ff, #fff7ef);
+            
+            /* Shadows */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+            
+            /* Hover Effects */
+            transition: all 0.3s ease-in-out;
+    }
+}
+
+.draw-placings-2:hover {
+    transform: scale(1.02);
+}
+
+.plate-3:hover {
+    transform: scale(1.02);
+}
+
+.plate-3 {
+    grid-row: 5;
+    grid-column: 1;
+    justify-content: center;
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15pt;
+    flex-direction: column;
+    text-align: center;
+
+            /* Typography */
+            font-family: 'Helvetica Neue', sans-serif;
+            font-size: 16pt;
+            line-height: 1.5;
+            letter-spacing: 1px;
+            color: black;
+            
+            /* Borders and Background */
+            border: 3px solid #fff7ef;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #f0f8ff, #fff7ef);
+            
+            /* Shadows */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+            
+            /* Hover Effects */
+            transition: all 0.3s ease-in-out;
+}
+
+
+.maindraw-4 {
+    grid-row: 5;
+    grid-column: 2;
+    justify-content: center;
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15pt;
+    flex-direction: column;
+    text-align: center;
+
+            /* Typography */
+            font-family: 'Helvetica Neue', sans-serif;
+            font-size: 16pt;
+            line-height: 1.5;
+            letter-spacing: 1px;
+            color: black;
+            
+            /* Borders and Background */
+            border: 3px solid #fff7ef;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #f0f8ff, #fff7ef);
+            
+            /* Shadows */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+            
+            /* Hover Effects */
+            transition: all 0.3s ease-in-out;
+}
+
+.maindraw-4:hover {
+    transform: scale(1.02);
+}
+
+
+.photos-5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 3;
+    padding: 25px;
+    background-color: #fff7ef;
+    text-align: center;   
+}
+
+.photos-5:hover {
+    transform: scale(1.02);
+}
+
+/* Other styling */
+
+.tables {
+    border: 4px solid black;
+    
+}
+td, th {
+    border: 2px solid black;
+}
+
+h3 {
+    text-align: center;
+    transform: translateX(-150px);
+    padding-bottom: 50px;
+    font-size:
+}
+
+img {
+    width: auto;
+    height: 900px;
+    object-fit: contain;
+    
+}
+
+ol {
+    font-size: 24px;
+    text-align: left;
+    margin-left: 30%;
+    list-style-position: inside;
+}
